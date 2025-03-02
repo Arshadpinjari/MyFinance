@@ -1,0 +1,27 @@
+{
+  "name": "MyFinance",
+  "version": "1.0.0",
+  "keywords": [
+    "MyFinance",
+    "finance",
+    "expense",
+    "income",
+    "budgeting tool",
+    "dashboard",
+    "transaction management",
+    "user-friendly"
+  ],
+  "author": "Arshad Pinjari",
+
+  "description": "MyFiles is a user-friendly platform designed to streamline your financial management effortlessly. With My Finance, you can easily track expenses, manage income, and stay on top of your finances effortlessly. Easily add transactions,and navigate your dashboard with ease. Take control of your finances with My Finance.",
+  "scripts": {
+    "setup": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "dev": "concurrently \"cd backend && npm run dev\"  \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
